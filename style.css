@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* margin: 10px; */
+}
+body{
+    background-image: url(./img/image.jpg);
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.39);
+    color: white;
+    margin: 40px;
+}
+header{
+    text-align: center;
+}
+form{
+    background-color: rgba(0, 0, 0, 0.705);
+    width: 25%;
+    margin: auto;
+    padding: 53px;
+}
+#Flix{
+    color: red;
+}
+h1{
+    font-family: "Bowlby One SC", cursive;
+}
+button{
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    margin-left: 125px;
+    border: none;
+}
+button:hover{
+    outline-color: white ;
+}
+textarea{
+    width: 350px;
+    height: 100px;
+}
+input[type="text"],input[type="number"],input[type="email"]{
+    height: 35px;
+    width: 350px;
+    margin: 15px 0px;
+}
+#movie{
+    height: 30px;
+    width: 300px;
+}
+select{
+    margin: 15px 0px;
+}
+
+
+
+
+
+
